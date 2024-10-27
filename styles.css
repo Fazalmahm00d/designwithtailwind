@@ -1,0 +1,1227 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: Poppins,sans-serif;
+}
+
+.header-section{
+    height: 119.5px;
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    margin: 0px 0px 10px;
+}
+.header-content-l{
+    display:flex;
+    gap:10px;
+    align-items: center;
+    justify-content: center;
+}
+.header-content-r{
+    display:flex;
+    gap:10px;
+    align-items: center;
+    justify-content: center;
+}
+.header-email,.header-contact{
+    display: flex;
+    font-weight: bold;
+    width: 254.64px;
+}
+.header-email-img,.header-contact-img{
+    display: flex;
+    flex-direction: column;
+}
+.header-email-content,.header-contact-content{
+    display: flex;
+    flex-direction: column;
+}
+.header-content-l a{
+    font-size: 32px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
+.header-content-r p{
+    font-size:18px;
+}
+.header-content-r a{
+    font-size:16px;
+    opacity: 0.7;
+    color: black;
+    text-decoration: none;
+}
+
+
+nav{
+    position: sticky;
+    top:0;
+}
+.nav-content{
+    background-color: #081da3;
+    padding-top: 18px;
+    padding-right: 30px;
+    padding-bottom: 18px;
+    padding-left: 30px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+}
+.nav-content-l{
+    display: flex;
+}
+.nav-content-l-ul{
+    display:flex;
+    list-style-type: none;
+    gap: 20px;
+}
+.nav-content-l-ul li a{
+    color: white;
+    text-decoration-line: none;
+}
+#l-drop{
+    border-style: hidden;
+}
+.nav-content-r{
+    display: flex;
+}
+.nav-content-r-ul{
+    display:flex;
+    gap: 10px;
+    list-style-type: none;
+}
+
+
+.bg-img-section{
+    height: 748px;
+    background:  linear-gradient(
+        rgba(0, 0, 0, 0.4), 
+        rgba(0, 0, 0, 0.4)
+      ),url('images/medium-shot-woman-working-laptop.jpg') ;
+
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.bg-img-section-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    animation-name: fadeInUp;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+.bg-img-section-heading1{
+    font-size:36px;
+}
+
+.bg-img-section-heading2{
+    font-size:72px;
+    margin-top: 20px;
+}
+.bg-img-section-buttons{
+    display:flex;
+    gap:10px;
+    margin-top: 30px;
+
+}
+#bg-img-section-button1,#section-2-btn,#section-3-container-button{
+    padding:15px;
+    background-color: #081da3;
+    color:white;
+    width:160px;
+    border-style: hidden;
+    display: flex;
+    align-items: center;
+
+}
+#bg-img-section-button1:hover,#section-2-btn:hover,#section-3-container-button:hover{
+    
+    background-color: #cf3140;
+}
+#bg-img-section-button2{
+    padding:15px;
+    background-color: white;
+    color:black;
+    width: 160px;
+    border-style: hidden;
+    display: flex;
+    align-items: center;
+}
+#bg-img-section-button2:hover{
+    color:white;
+    background-color: #081da3;
+}
+
+
+.section-1{
+    height:547.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.section-1-container{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    gap:20px;
+    animation-name: fadeInUp;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+.section-1-cards{
+    width: 360px;
+    height: 250px;
+    padding:40px;
+    background-color: #ffffff;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    justify-content: center;
+    font-size: 16px;
+    box-shadow: 0 6px 30px 7px rgba(33,37,71,.102);
+
+}
+.section-1-cards-icon{
+    display: flex;
+    justify-content: center;
+    margin:0px 0px 10px;
+}
+.section-1-cards-heading{
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: bold;
+    margin:0px 0px 10px;
+}
+.section-1-cards-desc{
+    margin:0px 0px 10px;
+    text-align: center;
+}
+.section-1-cards-link{
+    display: flex;
+    justify-content: center;
+}
+.section-1-cards-link a{
+    font-weight: bold;
+    color: #081da3;
+    text-decoration: none;
+}
+
+
+.section-2{
+    height:1090.7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+}
+.section-2-container{
+    display:flex;
+    justify-content: center;
+    align-items:flex-start;
+    flex-direction: column;
+    gap:20px;
+    font-size:16px;
+    height:1060.7px;
+    animation-name: fadeInUp;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+.section-2-headings{
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    flex-direction: column;
+    width:750px;
+    height:135.2;
+}
+.section-2-headings1{
+    font-size:22px;
+    font-weight: bold;
+    color: #cf3140;
+    width:750px;
+}
+.section-2-headings2{
+    font-size: 52px;
+    font-weight: bold;
+    text-align: left;
+    width:750px;
+    animation-name: fadeInUp;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+.section{
+    opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 2s ease, transform 2s ease;
+}
+.section.animate{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.section-2-descrs{
+    width: 1260px;
+    display: flex;
+    gap:15px;
+    margin-top: 10px;
+}
+.section-2-descrs-1{
+    display: flex;
+    flex-direction: column;
+    width:618px;
+    
+}
+.section-2-descrs-1-2{
+    display: flex;
+    align-items: center;
+    gap:15px;
+}
+.section-2-descrs-1-2-avatar{
+    border:2px solid black;
+    border-radius: 50%;
+    overflow: hidden;
+    width:70px;
+    height:70px;
+    background: url('images/portrait-man-cartoon-style.jpg');
+    background-size: cover;
+}
+.section-2-descrs-1-2-text{
+    display: flex;
+    flex-direction: column;
+}
+.section-2-descrs-2{
+    width:309px;
+}
+.section-2-descrs-3{
+    width:309px;
+}
+.section-2-card{
+    display: flex;
+    gap:35px;
+    margin-top: 20px;
+}
+.section-2-cards{
+    width: 406.66px;
+    height: 378px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    justify-content: flex-end;
+    align-items: flex-start;
+    font-size: 18px;
+    background:linear-gradient(180deg, rgba(8, 8, 8, 0.2) 8%, rgb(1, 1, 1) 100%),url('images/businessman-showing-changes-report.jpg');
+    background-size: cover;
+    background-position: right;
+    animation-name: fadeInUp;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+.section-2-cards-text{
+    margin-bottom: 20px;
+    margin-left: 10px;
+    padding: 20px;
+    width:280px;
+}
+.section-2-cards-text p{
+    color: #cf3140;
+    font-size: 18px;
+}
+.section-2-cards-text a{
+    color:white;
+    font-size: 30px;
+    text-decoration:none;
+}
+.section-2-button{
+    display:flex;
+    justify-content: center;
+    width:1260px;
+}
+
+
+.section-3{
+    height:830px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #221f3c;
+    padding:120px 50px;
+}
+.section-3-container{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    gap:20px;
+    font-size:16px;
+    width: 1300px;
+    height:590px;
+}
+.section-3-container-cards{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height: 590px;
+    gap:30px;
+}
+.section-3-container-img{
+    animation-name: fadeInUp;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+}
+.section-3-container-img-text{
+    position: relative;
+    bottom: 100px;
+    left: 80px;
+    font-size: 52px;
+    color:white;
+    font-weight: bold;
+}
+.section-3-container-content{
+    width: 594px;
+    padding:40px;
+    color:white;
+    animation-name: fadeInUp;
+    animation-duration: 3.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+}
+.section-3-container-content div{
+    display: flex;
+    justify-content: flex-start;
+    color:#cf3140;
+    font-size: 24px;
+    font-weight: bold;
+}
+.section-3-container-content h2{
+    font-size: 52px;
+    font-weight: bold;
+    margin:20px 0px 0px;
+}
+.section-3-container-content p{
+    margin:20px 0px 0px;
+    font-size: 17px;
+}
+.section-3-container-content ul li{
+    margin:10px 0px;
+    list-style-type: none;
+    font-size: 17px;
+}
+.section-3-container-button{
+    margin:20px 0px 0px;
+}
+
+
+.section-4{
+    height:1109.25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding:80px 30px;
+}
+.section-4-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    gap:20px;
+    font-size:17px;
+
+}
+.section-4-headings{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    animation-name: fadeInUp;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+}
+.section-4-heading1{
+    color:#cf3140;
+    font-size: 24px;
+    font-weight: bold;
+}
+.section-4-heading2{
+    font-size: 52px;
+    font-weight: bold;
+}
+.section-4-card{
+    display: flex;
+    gap:20px;
+}
+.section-4-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding:50px;
+    align-items:flex-start;
+    box-shadow: 0 6px 30px 7px rgba(33,37,71,.102);
+    /* width: 300px;
+    height: 250px; */
+    margin-top:32px;
+    animation-name: fadeInUp;
+    animation-duration: 3.5s;
+    animation-iteration-count: 1;
+}
+.section-4-cards-icon{
+
+}
+.section-4-cards h3{
+    font-size: 24px;
+    margin:0px 0px 15px; 
+    font-weight: bold;
+}
+.section-4-cards p{
+    font-weight:400;
+}
+.section-4-cards div{
+    font-weight:bold;
+    text-decoration: none;
+    color: black;
+    margin:2px 0px 0px;
+    padding:15px 0px 0px;
+}
+.section-4-cards a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.section-5{
+    height:830px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:120px 50px;
+}
+.section-5-container{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    gap:20px;
+    font-size:16px;
+    width: 1300px;
+    height:590px;
+}
+.section-5-headings{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    animation-name: fadeInUp;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+}
+.section-5-heading1{
+    color:#cf3140;
+    font-size: 24px;
+    font-weight: bold;
+}
+.section-5-heading2{
+    font-size: 52px;
+    font-weight: bold;
+}
+.section-5-container-cards{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    gap:30px;
+    background-color: #221f3c;
+
+}
+.section-5-container-img{
+    
+}
+.section-5-container-content{
+    width: 594px;
+    padding:40px;
+    color:white;
+    animation-name: fadeInUp;
+    animation-duration: 3.5s;
+    animation-iteration-count: 1;
+}
+.section-5-container-content h2{
+    font-size: 52px;
+    font-weight: bold;
+    margin:80px 0px 0px;
+}
+.section-5-container-content p{
+    margin:40px 0px 0px;
+    font-size: 17px;
+}
+.section-5-container-content ul li{
+    margin:20px 0px;
+    list-style-type: none;
+    font-size: 17px;
+}
+
+
+.section-6{
+    height:536px;
+    background:  linear-gradient(
+        rgba(0, 0, 0, 0.4), 
+        rgba(0, 0, 0, 0.4)
+      ),url('images/business-owner-working-their-strategy.jpg') ;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-6-container{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    font-size:16px;
+    width: 1300px;
+    height:590px;
+    color: white;
+    font-size:17px;
+    animation-name: fadeInUp;
+    animation-duration: 3.5s;
+    animation-iteration-count: 1;
+
+}
+.section-6-container h2{
+    font-size: 52px;
+    font-weight: bold;
+}
+.section-6-container-1{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.section-6-container-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+.section-6-container-2-buttons{
+
+}
+
+
+.section-7{
+    height:1100.84px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-7-container{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    gap:20px;
+    font-size:16px;
+}
+.section-7-headings{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    animation-name: fadeInUp;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+}
+.section-7-heading1{
+    color:#cf3140;
+    font-size: 24px;
+    font-weight: bold;
+}
+.section-7-heading2{
+    font-size: 36px;
+    font-weight: bold;
+}
+.section-7-card{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    gap:30px;
+    margin-top: 20px;
+}
+.section-7-cards{
+    box-shadow: 0 6px 30px 7px rgba(33,37,71,.102);
+    animation-name: fadeInUp;
+    animation-duration: 4.5s;
+    animation-iteration-count: 1;
+}
+.section-7-cards-img{
+    background-image: url('images/portrait-handsome-man.jpg');
+    width:396px;
+    height:453px;
+    background-size: cover;
+}
+.section-7-cards-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.section-7-cards-contents h3{
+    font-size:24px;
+}
+.section-7-cards-contents h4{
+    color:#081da3;
+    font-size:16px;
+    text-align: center;
+}
+.section-7-cards-contents ul{
+    display:flex;
+    gap:8px;
+    align-items: center;
+    justify-content:flex-start;
+}
+.section-7-cards-contents ul li{
+    list-style-type: none;
+}
+.section-7-buttons{
+    margin-top: 20px;
+    animation-name: fadeInUp;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+}
+
+
+.section-8{
+    background-color: #221f3c;
+    height:811.9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 30px;
+}
+
+.section-8-container{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    gap:20px;
+    font-size:16px;
+}
+.section-8-headings{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    animation-name: fadeInUp;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+}
+.section-8-heading1{
+    color:#cf3140;
+    font-size: 24px;
+    font-weight: bold;
+}
+.section-8-heading2{
+    font-size: 36px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.section-8-card{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin-top: 20px;
+    gap:30px;
+    animation-name: fadeInUp;
+    animation-duration: 3.5s;
+    animation-iteration-count: 1;
+}
+.section-8-cards{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin-top: 20px;
+    flex-direction: column;
+    width:550px;
+}
+.section-8-cards-1{
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding:60px;
+}
+.section-8-cards-1 h3{
+    font-weight: bold;
+    font-size: 30px;
+    margin: 10px 0px 0px;
+}
+.section-8-cards-1 p{
+    font-weight: 400;
+    margin: 10px 0px 0px;
+    line-height: 130%;
+}
+.section-8-cards-2{
+    color:white;
+    margin-right: 250px;
+    margin-top: 20px;
+}
+.section-8-cards-2-content{
+    display: flex;
+    gap:10px;
+    align-items: center;
+}
+.section-8-cards-2-content img{
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+
+.section-9{
+    height:807.65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 20px;
+}
+.section-9-container{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    gap:20px;
+    font-size:16px;
+}
+.section-9-headings{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    animation-name: fadeInUp;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+}
+.section-9-heading1{
+    color:#cf3140;
+    font-size: 24px;
+    font-weight: bold;
+}
+.section-9-heading2{
+    font-size: 36px;
+    font-weight: bold;
+}
+.section-9-card{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin-top: 20px;
+    gap:30px;
+    animation-name: fadeInUp;
+    animation-duration: 3.5s;
+    animation-iteration-count: 1;
+}
+.section-9-card-l{
+
+}
+.section-9-card-r{
+    
+}
+.section-9-card-r-box{
+    width:625px;
+    background-color: #f9f9f9;
+    padding: 15px 20px;
+    margin: 0px 0px 20px;
+}
+
+
+.section-10{
+    background-color: #f9f9f9;
+    height:978.13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-10-container{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    gap:20px;
+    font-size:16px;
+}
+.section-10-headings{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    animation-name: fadeInUp;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+}
+.section-10-heading1{
+    color:#cf3140;
+    font-size: 24px;
+    font-weight: bold;
+}
+.section-10-heading2{
+    font-size: 36px;
+    font-weight: bold;
+}
+.section-10-card{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    gap:30px;
+    margin-top: 20px;
+    animation-name: fadeInUp;
+    animation-duration: 3.5s;
+    animation-iteration-count: 1;
+}
+.section-10-cards{
+    box-shadow: 0 6px 30px 7px rgba(33,37,71,.102);
+    padding: 40px 40px 60px;
+}
+.section-10-cards:nth-child(even){
+    background-color: #081da3;
+    color: white;
+}
+.section-10-cards-content{
+    
+}
+.section-10-cards-content-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-10-cards-content p{
+    font-size:17px;
+    font-weight:400;
+    text-align: center;
+    line-height: 3.25;
+}
+.section-10-cards-content h3{
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+}
+.section-10-cards-content h2{
+    font-size: 52px;
+    font-weight: bold;
+    text-align: center;
+}
+.section-10-cards-content-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:32px 0px 0px;
+    animation-name: fadeInUp;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+}
+#section10-button{
+    padding:15px;
+    background-color: #cf3140;
+    color:white;
+    width: 160px;
+    border-style: hidden;
+    display: flex;
+    align-items: center;
+}
+#section10-button:hover{
+    color:#081da3;
+    background-color: white;
+}
+
+
+.section-11{
+    height:862.8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 30px;
+}
+.section-11-container{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    gap:20px;
+    font-size:16px;
+}
+.section-11-container-l{
+    width:650px;
+    animation-name: fadeInUp;
+    animation-duration: 2.5s;
+    animation-iteration-count: 1;
+}
+.section-11-container-l p{
+    font-size: 17px;
+    color: #2a3cb7;
+}
+.section-11-container-l h2{
+    font-size: 36px;
+    font-weight: bold;
+}
+.section-11-container-l-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;
+}
+.section-11-container-l-icontext{
+    display: flex;
+    flex-wrap: wrap;
+}
+.section-11-container-l-icon{
+    padding: 20px 0px;
+    margin-right: 20px;
+}
+.section-11-container-l-icon svg{
+    border-radius: 50%;
+    background-color: #2a3cb7;
+    padding: 15px;
+    width:50px;
+    height:50px;
+}
+.section-11-container-l-text{
+    display: flex;
+    flex-direction: column;
+}
+#section-11-container-l-text1{
+    color: #2a3cb7;
+    font-size:17px;
+    font-weight:400;
+}
+#section-11-container-l-text2{
+    font-size:22.4834px;
+    font-weight:400;
+    color: #000;
+}
+.section-11-container-r{
+    background-color: white;
+    box-shadow: 0 6px 30px 7px rgba(33,37,71,.102);
+    border-radius: 10px;
+    padding:60px;
+}
+.section-11-container-r p{
+    margin:17px 0px ;
+}
+.section-11-container-r span{
+    display: block;
+}
+.section-11-container-r span input{
+    background-color:#eeeeee;
+    padding:7px 15px;
+    width:514px;
+    border-style: none;
+}
+.section-11-container-r span textarea{
+    background-color:#eeeeee;
+    padding:7px 15px;
+    width:514px;
+    height: 300px;
+    border-style: none;
+}
+.section-12{
+    background-color: #f9f9f9;
+    height:1134.53px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-12-container{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    gap:20px;
+    font-size:16px;
+}
+.section-12-headings{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.section-12-heading1{
+    color:#cf3140;
+    font-size: 24px;
+    font-weight: bold;
+}
+.section-12-heading2{
+    font-size: 36px;
+    font-weight: bold;
+}
+.section-12-card{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    gap:30px;
+    margin-top: 20px;
+}
+.section-12-cards{
+    box-shadow: 0 6px 30px 7px rgba(33,37,71,.102);
+    width:399.16px;
+}
+.section-12-cards-img{
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.4), 
+        rgba(0, 0, 0, 0.4)
+      ),url('images/OTOUKL0.jpg');
+    height:314px;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.section-12-cards-img-content{
+    display: flex;
+    margin:0px 20px 30px;
+    flex-wrap: wrap;
+}
+.section-12-cards-img-contents{
+    color: white;
+    font-size :17px;
+    font-weight:400;
+    background-color: #2a3cb7;
+    padding: 2px 10px;
+    margin:5px;
+}
+.section-12-cards-content{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+.section-12-cards-content a{
+    text-decoration: none;
+}
+.section-12-cards-contents h3 a{
+    font-size:24px;
+    color:black;
+}
+.section-12-cards-contents a{
+    margin:5px 0px 0px;
+    font-weight: bold;
+    color:#081da3;
+}
+.section-12-cards-contents-date{
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
+.section-12-cards-contents p{
+    margin: 17px 0px;
+    font-size:16px;
+    color:#707376;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+.section-12-cards-contents div a{
+    color: #cf3140;
+}
+.section-12-buttons{
+    margin-top: 20px;
+}
+
+
+.section-13{
+    background-color: #2a3cb7;
+    height:186px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+}
+.section-13-icons{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-size:16px;
+}
+
+
+.section-14{
+    background-color: #000;
+    height: 416.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-14-container{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    gap:20px;
+    color:white;
+    font-size:17px;
+}
+.section-14-container-1{
+    height: 272.5px;
+    width: 286px;
+    color: #929ba8;
+    font-size: 17px;
+    padding: 20px 20px 20px 0px;
+}
+.section-14-container-2{
+    height: 272.5px;
+    width: 306px;
+    color: #929ba8;
+    font-size: 17px;
+    padding: 20px 0px;
+}
+.section-14-container-2 ul li{
+    margin: 10px 0px;
+}
+.section-14-container-1 h3,.section-14-container-2 h3{
+    color: white;
+}
+
+
+.footer-section{
+    height: 79.75px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-container{
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    gap:20px;
+    font-size:16px;
+    color: white;
+    padding: 25px 30px;
+    width: 100%;
+
+
+}
+.footer-container ul{
+    list-style-type: none;
+    display: flex;
+    gap:20px;
+}
+
+@keyframes fadeInUp {
+    0%{
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.animate-fadeInUp {
+    @apply animate-[fadeInUp_1s_ease-out_forwards];
+}
