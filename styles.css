@@ -14,7 +14,8 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 30px;
-    margin: 0px 0px 10px;
+    margin: auto;
+    max-width: 1200px;
 }
 .header-content-l{
     display:flex;
@@ -62,9 +63,10 @@ body{
 nav{
     position: sticky;
     top:0;
+    background-color: #081da3;
 }
 .nav-content{
-    background-color: #081da3;
+   
     padding-top: 18px;
     padding-right: 30px;
     padding-bottom: 18px;
@@ -73,14 +75,18 @@ nav{
     justify-content: space-between;
     align-items: center;
     color:white;
+    margin: auto;
+    max-width: 1200px;
 }
 .nav-content-l{
     display: flex;
+    align-items: center;
 }
 .nav-content-l-ul{
     display:flex;
     list-style-type: none;
-    gap: 20px;
+    gap: 28px;
+
 }
 .nav-content-l-ul li a{
     color: white;
@@ -91,6 +97,8 @@ nav{
 }
 .nav-content-r{
     display: flex;
+    align-items: center;
+    gap: 10px;
 }
 .nav-content-r-ul{
     display:flex;
@@ -169,6 +177,9 @@ nav{
     justify-content: center;
     align-items: center;
     background-color: white;
+    margin: auto;
+    max-width: 1200px;
+    container-type: inline-size;
 }
 .section-1-container{
     display:flex;
@@ -178,6 +189,9 @@ nav{
     animation-name: fadeInUp;
     animation-duration: 3s;
     animation-iteration-count: 1;
+    max-width: 1200px;
+    margin: auto;
+
 }
 .section-1-cards{
     width: 360px;
@@ -226,6 +240,7 @@ nav{
     justify-content: center;
     align-items: center;
     background-color: #f9f9f9;
+    
 }
 .section-2-container{
     display:flex;
@@ -238,6 +253,9 @@ nav{
     animation-name: fadeInUp;
     animation-duration: 3s;
     animation-iteration-count: 1;
+    max-width: 1200px;
+    margin: auto;
+    
 }
 .section-2-headings{
     display: flex;
@@ -365,7 +383,8 @@ nav{
     align-items:center;
     gap:20px;
     font-size:16px;
-    width: 1300px;
+    max-width: 1200px;
+    margin: auto;
     height:590px;
 }
 .section-3-container-cards{
@@ -438,6 +457,8 @@ nav{
     align-items:center;
     gap:20px;
     font-size:17px;
+    max-width: 1200px;
+    margin: auto;
 
 }
 .section-4-headings{
@@ -588,7 +609,7 @@ nav{
     align-items:center;
     flex-direction: column;
     font-size:16px;
-    width: 1300px;
+    width: 1200px;
     height:590px;
     color: white;
     font-size:17px;
@@ -630,6 +651,8 @@ nav{
     flex-direction: column;
     gap:20px;
     font-size:16px;
+    max-width: 1200px;
+    margin: auto;
 }
 .section-7-headings{
     display: flex;
@@ -674,6 +697,7 @@ nav{
     align-items: center;
     justify-content: center;
     text-align: center;
+    gap: 6px;
 }
 .section-7-cards-contents h3{
     font-size:24px;
@@ -688,9 +712,11 @@ nav{
     gap:8px;
     align-items: center;
     justify-content:flex-start;
+    margin-top: auto;
 }
 .section-7-cards-contents ul li{
     list-style-type: none;
+    gap: 5px;
 }
 .section-7-buttons{
     margin-top: 20px;
@@ -707,6 +733,7 @@ nav{
     justify-content: center;
     align-items: center;
     padding: 100px 30px;
+    
 }
 
 .section-8-container{
@@ -716,6 +743,8 @@ nav{
     flex-direction: column;
     gap:20px;
     font-size:16px;
+    max-width: 1200px;
+    margin: auto;
 }
 .section-8-headings{
     display: flex;
@@ -799,6 +828,9 @@ nav{
     flex-direction: column;
     gap:20px;
     font-size:16px;
+    max-width: 1200px;
+    margin: auto;
+
 }
 .section-9-headings{
     display: flex;
@@ -848,11 +880,14 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .section-10-container{
     display:flex;
     justify-content: center;
+    max-width: 1200px;
+    margin: auto;
     align-items:center;
     flex-direction: column;
     gap:20px;
@@ -948,6 +983,9 @@ nav{
     justify-content: center;
     align-items: center;
     padding: 100px 30px;
+    margin: auto;
+    max-width: 1200px;
+    container-type: inline-size;
 }
 .section-11-container{
     display:flex;
@@ -1037,6 +1075,7 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .section-12-container{
     display:flex;
@@ -1045,6 +1084,9 @@ nav{
     flex-direction: column;
     gap:20px;
     font-size:16px;
+    max-width: 1200px;
+    margin: auto;
+    
 }
 .section-12-headings{
     display: flex;
@@ -1140,12 +1182,14 @@ nav{
     justify-content: center;
     align-items: center;
     gap:40px;
+    margin: auto;
 }
 .section-13-icons{
     display:flex;
     justify-content: center;
     align-items:center;
     font-size:16px;
+    
 }
 
 
@@ -1163,6 +1207,9 @@ nav{
     gap:20px;
     color:white;
     font-size:17px;
+    max-width: 1200px;
+    margin: auto;
+
 }
 .section-14-container-1{
     height: 272.5px;
@@ -1202,6 +1249,8 @@ nav{
     color: white;
     padding: 25px 30px;
     width: 100%;
+    max-width: 1200px;
+    margin: auto;
 
 
 }
